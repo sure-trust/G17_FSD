@@ -6,7 +6,7 @@
 
 
 <h3 align="center">SURE Trust - Skill Upgradation for Rural-youth Empowerment Trust</h3>
-  <h2>Full Stack Development - G17</h2>
+  <h2>Full Stack Development - G17 </h2>
 </div>
 
 Welcome to the SURE Trust Full Stack Development - G17 Training repository. This repository serves as a central hub for all materials and resources related to the training course during the twenty seventh batch of training Python Training course.
