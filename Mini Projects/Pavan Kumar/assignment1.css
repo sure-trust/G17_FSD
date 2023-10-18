@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(35, 169, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.personal{
+    color: #2020c8;
+}
+#skill{
+    color: rgb(87, 5, 250);
+}
+.qua{
+    color: rgba(12, 12, 234, 0.755);
+}
+#submit{
+    border-radius: 20%;
+    margin: 20px 500px 10px 400px;
+    padding: 5px;
+}
+ 
+ a:visited{
+    color:rgb(156, 51, 1.0);
+    text-decoration: none;
+ }
+ input{
+    width:100%;
+    padding:5px 20px;
+ }
+ input[type="radio"]{
+    width:2%;
+ }
+ input[type="checkbox"]{
+    width:2%;
+ }
+ body{
+    margin: 10px;
+    border: 2px solid lightgray;
+    padding: 10px;
+ }
+ .display{
+    margin: 20px 20px 100px 30px;
+    width: 20%;
+    
+    border: 1px solid black;
+ }
+
+ .display{
+    width: 20%;
+    background-image: url(project-image/Smart-key-Finder-Circuit-Diagram.png);
+ }

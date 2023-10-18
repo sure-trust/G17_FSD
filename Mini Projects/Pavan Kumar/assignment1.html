@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forminputs</title>
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+    <form>
+        <h1 style="text-align: center;
+        color: rgb(74, 36, 154);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-shadow: 3px 1px  rgb(195, 205, 198);">
+            <u>APPLICATION FORM</u></h1>
+        <div class="personal">
+            <fieldset>
+                <legend>personal details</legend>
+                <label>First name:
+                <input type="text" placeholder="enter first name" required name="first-name"/></label> <br><br>
+                <label >Last name:
+                <input type="text" placeholder="enter last name" name="last-name"/></label><br><br>
+                <label >Date of birth:
+                <input type="date" name="dob"/></label><br><br>
+                <label>Email id:
+                <input type="email" placeholder="enter email id" name="email"/></label> <br><br>
+                <label>Password:
+                <input type="password" placeholder="enter password" name="password"/></label> <br><br>
+                <label for="gender">select gender: 
+                <input type="radio" name="gender" />male
+                <input type="radio" name="gender"/>female
+                <input type="radio" name="gender"/>other</label><br><br>
+                <label>Age :
+                <input type="number" name="age"/></label> <br><br>
+                <label>Address:<br>
+                <textarea rows="4" cols="50" 
+                placeholder="enter address" required name="address"></textarea></label><br><br>
+            </fieldset>
+        </div >
+        <div class="qua">
+            <fieldset>
+                <legend>education</legend>
+                <p name="Qualification">Qualification:</p>
+                <select>
+                    <option>10th</option>
+                    <option>inter</option>
+                    <option>degree</option>
+                    <option>btech</option>
+                    <option>Mtech</option>
+                    <option>Phd</option>
+                </select>
+
+            </fieldset>
+
+        </div>
+        <div id="skill">
+            <fieldset>
+                <legend>skills</legend>
+                <p>Programming languages you know:</p>
+                <label>c-program
+                <input type="checkbox" name="c"/></label>
+                <label>html
+                <input type="checkbox" name="html"/></label><br><br>
+                <label>python
+                <input type="checkbox" name="py"/></label>
+                <label>java
+                <input type="checkbox" name="java"/></label><br><br>
+                <label>c++
+                <input type="checkbox" name="c++"/></label>
+                <label>javascript
+                <input type="checkbox" name="js"/></label><br>
+                <input type="reset" name="reset"/>
+
+
+            </fieldset><br><br>
+        </div>
+        <button id="submit"><a class="link" href="2ndpage.html" _blank name="submit">submit</a></button>
+    </form> 
+</body>
+</html>
