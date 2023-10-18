@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="./ex.css">
+  <style>
+    legend{
+      text-transform: uppercase;
+    }
+    fieldset{
+      border-color: deeppink ;
+      border-style: dashed;
+    }
+    label{
+      text-transform: uppercase;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;"> Registration </h1>
+  <form action='' method='' enctype='file'>
+    <fieldset>
+     <legend >form</legend>
+     <label for='fname'>firstname:</label>
+     <input type='text' placeholder='firstname'  name='fname' required/><br>
+     <label for='lname'> lastname:</label>
+     <input type='text' placeholder='lastname' name='lname'required/><br>
+     gender:<br>
+     <label for='m'>male:</label>
+     <input id='m' type='radio' name='gender' value='male'/><br>
+     <label for='f'>female:</label>
+     <input id='f' type='radio' name='gender' value='female/><br>
+     <label for='dob'>dateofbirth:</label>
+     <input type='date' name='dateofbirth' id='dob' required/><br>
+     <label for='pno'>phno:</label>
+     <input type='number' name='pno' required/><br>
+     <label for='email'>email:</label>
+     <input type='email' name='email' required><br>
+     <label for='password'>password:</label>
+     <input type='password' required name='password'/><br>
+     <label for='address'> addresss:</label>
+     <input type='textarea' required><br>
+     <label for='city'> city:</label>
+     <select required>
+       <option>vizag</option>
+       <option>vizianagaram</option>
+       <option>bobilli</option>
+       <option>parvathipuram</option>
+     </select><br>
+     <label for='pincode'>pincode:</label>
+     <input type='number' required name='pincode' max=6><br>
+     <label for='file'>resume:</label>
+     <input type='file'  requred name='file'><br>
+     </fieldset>
+     <label for='submit' >
+    <input type='submit' name='submit' /></label>
+  </form>
+ </body>
+ </html>
+    
+    
