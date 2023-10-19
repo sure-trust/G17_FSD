@@ -1,0 +1,133 @@
+<!--create a html file with many tags and add the css styles to it-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Html file with the css styles</title>
+  <!--external style sheet-->
+  <link hre="i_6_css_file.css" type="text/css" relation="stylesheet">
+   
+    <!--internal style sheet-->
+<style>
+p{
+  color:blue;
+}
+
+h1{
+    color:forestgreen;
+}
+h2{
+    color:blue;
+}
+h3{
+    color:violet;
+}
+h4{
+    color:purple;
+
+}
+h5{
+    color:black
+}
+h6{
+    color:brown
+}
+
+/* attribute selector*/
+input[type="password"]
+{
+    color:violet;
+}
+</style>
+</head>
+<body>
+    <!--heading-->
+    <h1 align="center">This is the new Assignment</h1>
+    <!--definition list-->
+    <dl>
+        <dt><b>Create a html file and add the css tyles to it</b></dt>
+        <dd>Ok done i 'll try my level best to add into it</dd>
+    </dl>
+    <!--paragraph-->
+    <p style=color:burlywood;>Whatever we have discussed till now add the css styles to it</p><!--inline style sheet-->
+    <!--link-->
+    <a href="www.freecodecamp.">Practice this website to learn more about html</a>
+    <!--figure-->
+    <figure>
+        <img  src="rkv.jpg"   alt="image about rkv logo" align="middle">
+        <figcaption>rkv logo</figcaption>
+    </figure>
+    <!--headings about suretrust-->
+
+    <h1>Suretrust</h1>
+    <h2>Suretrust2</h2>
+    <h3>Suretrust3</h3>
+    
+    <h4>Suretrust4</h4>
+    
+    <h5>Suretrust5</h5>
+    
+    <h6>Suretrust6</h6>
+
+
+    <!--definiton lists-->
+    <dl>
+        <dt><b>Tell me something about suretrust</b></dt>
+        <dd>
+            SureTrust is a trusted name in the industry, known for its unwavering commitment to reliability and integrity. With a track record of delivering on promises and providing top-notch services, SureTrust has earned the confidence of its clients and partners alike. Whether it's in finance, technology, or any other sector, SureTrust is synonymous with trustworthiness and excellence.</dd>
+
+    </dl></br>
+
+<!--form submission-->
+    <fieldset>
+        <legend style=color:blue;><strong>Registration form</strong></legend>
+    </br>
+        <form action="#" method="post">
+            <label for="text"><b>Name</b></label>
+             <input type="text" name="text" maxlength="10" size="10" id="name"></br></br>
+            <label for name="password"><b>Password</b></label>
+            <input type="password" name="password"></br></br>
+            <label for="radio"><b>Gender</b></label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender" >female</br></br>
+            <!-- name should be same then only we can select one radio button or else two will be selected -->
+           
+
+            <!--check box-->
+            <b>Add ur rating to suretrust</b>
+            <select name="Rating">
+             
+                <option value="1" selected>1</option>
+                <option value="3">2</option>
+                <option value="4">3</option>
+                <option value="3">4</option>
+                <option value="5">5</option>
+
+            </select>
+        </br></br>
+
+            <!--checkbox-->
+            <label for="checkbox"><b>Intrested in</b></label>
+            <input type="checkbox" name="domain" value="course" >Java
+            <input type="checkbox" name="domain" value="course" >Python
+            <input type="checkbox" name="domain" value="course" >Machine learning
+            <input type="checkbox" name="domain" value="course" >Full stack
+            <input type="checkbox" name="domain" value="course" >PowerBi and Sql
+
+
+            <!--text area--></br>
+    </br>
+    <label for="comments"><b>Add your Comment on Sure trust</b></label>
+</br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</br></br>
+
+         <label for="resume"><b>Add your resume</b></label>
+         <input type="file" name="resume" value="pdf">
+
+    </br></br>
+            <!--fieldset and legend-->
+            <input type="submit" value="Submit">
+    </fieldset>
+    
+</body>
+</html>

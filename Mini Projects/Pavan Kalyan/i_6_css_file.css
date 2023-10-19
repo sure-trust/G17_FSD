@@ -1,0 +1,59 @@
+/*universal selector
+
+*{
+    color:purple;
+}
+
+*/
+ type selector
+p
+{
+    color:aqua;
+}
+
+/* class selector
+.mypara
+{
+    color:violet
+
+}
+*/
+
+/* id selector
+#para
+{
+    color:brown;
+}
+*/
+
+/* descendent selector
+
+div p{
+    color:chocolate;
+}
+*/
+/* child selector
+div >p
+{
+    color:tomato
+}
+*/
+
+/*general sibling selector
+a ~ p
+{
+    color:red;
+}
+*/
+
+/*Adjacent sibling selector
+p + a
+{
+    color:blueviolet
+}
+*/
+ attribute selector
+input[type="password"]
+{
+    color:chartreuse;
+}
