@@ -1,0 +1,269 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Html file with the css styles</title>
+  <link hre="ASSIGNMENT-1.css" type="text/css" relation="stylesheet">
+
+<style>
+p{
+  color:blue;
+}
+
+h1{
+    color:forestgreen;
+}
+h2{
+    color:blue;
+}
+h3{
+    color:violet;
+}
+h4{
+    color:purple;
+
+}
+h5{
+    color:black
+}
+h6{
+    color:brown
+}
+
+/* attribute selector*/
+input[type="password"]
+{
+    color:violet;
+}
+</style>
+</head>
+<body>
+    <div>
+        <h2>A Description List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+ 
+
+<h2>An Unordered HTML List</h2>
+
+<ul type="square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol type="circle">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> <br>
+
+ <ol type="1" start="5">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> <br>
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<br>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<ol>
+<li> hello </li>
+<li>good morning</li>
+<ol>
+<li>chandra</li>
+</ol>
+<li>harisha</li>
+</ol>
+    </div>
+    <div>
+        <h1>hello this is harish</h1>
+        <p>hello this is harish</p>
+        <p><s>hello this is harish</s></p>
+        <p><b>hello this is harish</b></p> 
+        <p style="color: rgb(107, 206, 15);"><strong>hello this is harish</strong></p>
+        <p st><i>hello this is harish</i></p>
+        <p style="border:burlywood red;"><small>hello this is harish</small></p>
+        <p><em>hello this is harish</em></p>
+        <p style="color: brown;"><ins>hello this is harish</ins></p>
+         
+        <h1 style="border:2px solid Violet;">Hello World</h1>
+        <h1>hello <sub>world</sub>this <sup>animal</sup>is good</h1>
+    </div>
+    <div>
+        <h2 align="center">TABLE CREATION</h2>
+
+<table style= "width:100%" border="1">
+  <tr>
+    <th rowspan="2">s.no</th>
+    <th rowspan="2">details of the service provided</th>
+    <th rowspan="2">qty</th>
+    <th colspan="2">service period</th>
+    <th colspan="4">service performace details</th>
+  </tr>
+  <tr>
+   <td>from</td>
+   <td>to</td>
+   <td>s.no</td>
+   <td>service idno</id>
+    <td>grap in service</td>
+    <td>overall(performance remarks(satisfactory,unsatisfactory))</td>
+   </tr>
+   <tr>
+    <td rowspan="3">1</td>
+    <td rowspan="3"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+   
+    <td></td>
+    <td></td>
+   </tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">2</td>
+<td rowspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+    </div>
+    <fieldset>
+        <legend style=color:green; align="center"><strong><h2>Registration form</h2></strong></legend>
+    </br>
+        <form action="#" method="post">
+            <label ><b>FIRST NAME:</b>
+             <input type="text" name="text" maxlength="10" size="10" id="name"></label></br></br>
+            <label for="password" name="password"><b>LAST NAME</b></label>
+            <input type="password" id="password" name="password"></br></br>
+            <label for="radio"><b>Gender</b></label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender" >female</br></br>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="gmail"></br></br>
+            <label for="date" name="dob">DATE OF BIRTH</label>
+            <input type="date" name="dob"></br></br>
+             </form>
+            
+            <b>COURSE NAME</b>
+            <select name="Rating"></br>
+             
+                <option value="1" selected>FSD</option>
+                <option value="3">JAVA</option>
+                <option value="4">PYTHON</option>
+                <option value="3">C</option>
+                <option value="5">DSA</option>
+
+            </select>
+        </br></br>
+
+            <!--checkbox-->
+            <label for="checkbox"><b>Intrested in</b></label>
+            <input type="checkbox" name="domain" value="course" >Java
+            <input type="checkbox" name="domain" value="course" >Python
+            <input type="checkbox" name="domain" value="course" >Machine learning
+            <input type="checkbox" name="domain" value="course" >Full stack
+            <input type="checkbox" name="domain" value="course" >PowerBi and Sql
+
+
+            <!--text area--></br>
+    </br>
+    <label for="comments"><b>Add your Comment on Sure trust</b></label>
+</br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</br></br>
+
+         <label for="resume"><b>Add your resume</b></label>
+         <input type="file" name="resume" value="pdf">
+
+    </br></br>
+            <!--fieldset and legend-->
+            <input type="submit" value="Submit">
+    </fieldset>
+     
+    <a href="www.freecodecamp.">Practice this website to learn more about html</a>
+    <!--figure-->
+    <figure>
+        <img  src="42.jpg" alt="image about rkv logo" align="middle" width="50%" height="50%">
+        <figcaption>rkv logo</figcaption>
+    </figure>
+    <video  controls width="50%" height="30%">
+        <source src="2.mp4" type="video/mp4">
+    </video>
+    <h2>inersting audio</h2>
+    <audio controls>
+        <sourse src="/home/harish/Desktop/sure trust/1.mp3" type="audio/mp3">
+    </audio>
+
+    <!--headings about suretrust-->
+
+    <h1>Suretrust</h1>
+    <h2>Suretrust2</h2>
+    <h3>Suretrust3</h3>
+    
+    <h4>Suretrust4</h4>
+    
+    <h5>Suretrust5</h5>
+    
+    <h6>Suretrust6</h6>
+
+
+    <!--definiton lists-->
+    <dl>
+        <dt><b>Tell me something about suretrust</b></dt>
+        <dd>
+            SureTrust is a trusted name in the industry, known for its unwavering commitment to reliability and integrity. With a track record of delivering on promises and providing top-notch services, SureTrust has earned the confidence of its clients and partners alike. Whether it's in finance, technology, or any other sector, SureTrust is synonymous with trustworthiness and excellence.</dd>
+
+    </dl></br>
+
+<!--form submission-->
+    
+    
+</body>
+</html>
