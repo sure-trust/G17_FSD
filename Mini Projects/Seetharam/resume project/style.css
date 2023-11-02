@@ -1,0 +1,118 @@
+main{
+    padding: 10px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+nav{
+    background-color:crimson;
+    position: sticky;
+    top:0;
+    left:0;
+    width: 100%;
+    border-radius: 5px;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+nav li{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+#resume{
+    font-size: 30px;
+    color:white;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-style: italic;
+}
+#me{
+    text-align: center;
+}
+.hello{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 20px;
+}
+.name{
+    color: black;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.a{
+    color: black;
+    font-size: 30px; 
+    padding-left: 20px;
+}
+#red{
+    text-align: center;
+    color:crimson;
+}
+.soft{
+    color: red;
+    font-size: 30px;
+}
+img{
+    width:200px;
+    float: right;
+    border-radius: 10px;
+}
+.head{
+    background-color: darkgray;
+}
+.clg{
+    font-size: 25px;
+    color:blue;
+}
+.course{
+    font-size: 20px;
+    color: brown;
+}
+.year{
+    font-size: 20px;
+    color: black;
+}
+.obj{
+    font-style: italic;
+    font-size: 20px;
+    height: 75px;
+}
+.foot{
+    background-color: black;
+    height: 30px;
+    position: sticky;
+}
+.para2{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5px;
+}
+.para3{
+    font-style: oblique;
+    font-size: 25px;
+}
+.para4{
+    font-style: oblique;
+    font-size: 20px;
+}
+.web{
+    font-family:sans-serif;
+}
+#mailing{
+    font-size: 20px;
+}
+.table{
+    font-size: 18px;
+}
+a:hover{
+    background-color:  chartreuse;
+    border-radius: 10px;
+    padding: 3px;
+}
+#Portfolio{
+   height: 300px;
+}
