@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body, h1, p, ul, ol, li, a, form, fieldset, legend, label, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.centered {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+p {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+legend {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkviolet;
+}
+
+b {
+    color: red;
+    font-size: 18px;
+}
