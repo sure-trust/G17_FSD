@@ -1,0 +1,22 @@
+
+body {
+    margin: 20px;
+    padding: 0px 10px;
+    border: 1px rgb(252, 251, 251) solid;
+    border-radius: 6px;
+    background-color: rgb(181, 172, 172);
+    word-spacing: 5px;
+}
+/* here this media querie is used to add the responsiveness for this resume page when ever it is greaterthan 600px it looks with simple font and lightgrey background colour and
+ when it lessthan 600px it changes its font style in to italic and changes its background in to lightblue coluor  */
+@media screen and (max-width : 600px) {
+    body {
+        background-color: lightblue;
+        font-style: italic;
+    }
+}
+#pic{
+    width: 100px;
+    height: 120px;
+    float: right;
+}
